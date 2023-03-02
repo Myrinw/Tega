@@ -285,6 +285,11 @@ strong {
 				border-left: 0;
 			}
 		}
+		#{$hero}__image {
+			max-width: 1700px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
 		@media (max-width: $md) {
 			height: auto !important;
 		}
