@@ -260,6 +260,7 @@ strong {
 	$hero: &;
 	&--big {
 		min-height: 646px;
+		height: auto;
 		flex-direction: column;
 		padding-bottom: 60px;
 		padding-top: 90px;
@@ -275,6 +276,17 @@ strong {
 			line-height: 34px;
 			padding-left: 29px;
 			border-left: 2px solid $green;
+			@media (max-width: $md) {
+				padding-left: 16px;
+				padding-right: 16px;
+				font-size: 18px;
+				line-height: 30px;
+				text-align: center;
+				border-left: 0;
+			}
+		}
+		@media (max-width: $md) {
+			height: auto !important;
 		}
 	}
 	@media (max-width: $md) {
@@ -623,6 +635,64 @@ strong {
 		font-weight: 600;
 		padding-left: 20px;
 		position: relative;
+		&::before {
+			content: "";
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background-color: $green;
+			position: absolute;
+			left: 0;
+			top: 14px;
+		}
+	}
+}
+
+.pledge {
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding-top: 70px;
+	&--last {
+		margin-bottom: 90px;
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 34px;
+		color: #000000;
+		position: relative;
+		max-width: 700px;
+	}
+	&__line {
+		margin-top: 24px;
+		margin-bottom: 21px;
+		width: 175px;
+		height: 1px;
+		background-color: $green;
+	}
+	&__text {
+		font-size: 18px;
+		line-height: 189%;
+		color: $gray;
+	}
+	&__number {
+		font-weight: 600;
+		font-size: 108px;
+		line-height: 147px;
+		color: #e6e6e6;
+		position: absolute;
+		z-index: -1;
+		top: -65px;
+		left: -30px;
+	}
+	&__list {
+		color: $gray;
+		font-size: 18px;
+		line-height: 189%;
+		padding-left: 20px;
+		position: relative;
+		margin-bottom: 2px;
 		&::before {
 			content: "";
 			width: 7px;
