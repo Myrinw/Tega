@@ -3,7 +3,7 @@ import Faq from "./pages/faq/faq";
 import Pledge from "./pages/pledge/pledge";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 
 function App() {
