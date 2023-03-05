@@ -1,22 +1,26 @@
 import Hero from "../../components/hero/hero";
+import IntroText from "../../components/intro-text/intro-text";
 function Faq() {
 	return (
 		<div>
 			<Hero title={"FAQ"} />
-			<section className="text-block-section">
+			{/* <section className="text-block-section">
 				<div className="container">
 					<p className="text-block">
-						Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
-						Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
-						Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus.
-						Nam tempus vel odio vitae aliquam. In imperdiet eros id lacus
-						vestibulum vestibulum. Suspendisse fermentum sem sagittis ante
-						venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed
-						aliquam sapien convallis eu. Nulla ut turpis in diam dapibus
-						consequat.Cras quis nulla commodo,.
+						
 					</p>
 				</div>
-			</section>
+			</section> */}
+			<IntroText>
+				Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+				Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
+				Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam
+				tempus vel odio vitae aliquam. In imperdiet eros id lacus vestibulum
+				vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas
+				quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien
+				convallis eu. Nulla ut turpis in diam dapibus consequat.Cras quis nulla
+				commodo,.
+			</IntroText>
 			<section className="faqs">
 				<div className="container">
 					<h3 className="faqs__title">MEMBERS</h3>
