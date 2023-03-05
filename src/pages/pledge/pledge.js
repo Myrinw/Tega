@@ -71,11 +71,11 @@ function Faq() {
 						opened up opportunities for trading in a democratic way. While in
 						the past, trading was often the exclusive domain of a closed, small
 						group of professionals, non-professional traders are testing their
-						mettle in the market in growing numbers. TEGA Members endeavor to
-						support the rights of, and provide opportunities for aspiring
-						futures traders to join the professional trading industry, by
-						testing themselves through an objective examination and joining a
-						proprietary trading firm as professional traders.
+						mettle in the market in growing numbers. <strong>TEGA</strong>{" "}
+						Members endeavor to support the rights of, and provide opportunities
+						for aspiring futures traders to join the professional trading
+						industry, by testing themselves through an objective examination and
+						joining a proprietary trading firm as professional traders.
 						<br /> <br />
 						Except where legally prohibited, <strong>TEGA</strong> Members
 						commit to provide aspiring futures traders, regardless of physical
@@ -96,10 +96,10 @@ function Faq() {
 					</h3>
 					<div className="pledge__line"></div>
 					<p className="pledge__text">
-						TEGA Members undertake to provide an objective and low risk
-						environment for aspiring futures traders to receive exposure to
-						markets. Accordingly, TEGA Members commit to the following
-						principles:
+						<strong>TEGA</strong> Members undertake to provide an objective and
+						low risk environment for aspiring futures traders to receive
+						exposure to markets. Accordingly, <strong>TEGA</strong> Members
+						commit to the following principles:
 						<br />
 						<br />
 						<ul>
@@ -149,10 +149,10 @@ function Faq() {
 					</h3>
 					<div className="pledge__line"></div>
 					<p className="pledge__text">
-						TEGA Members undertake to provide an objective and low risk
-						environment for aspiring futures traders to receive exposure to
-						markets. Accordingly, TEGA Members commit to the following
-						principles:
+						<strong>TEGA</strong> Members undertake to provide an objective and
+						low risk environment for aspiring futures traders to receive
+						exposure to markets. Accordingly, <strong>TEGA</strong> Members
+						commit to the following principles:
 						<br />
 						<br />
 						<ul>
@@ -197,60 +197,65 @@ function Faq() {
 			<section className="pledge">
 				<div className="container">
 					<h3 className="pledge__title">
-						Providing Equal Opportunity for Aspiring Futures Traders
+						Reject Deceptive Marketing Practices
 						<div className="pledge__number">05</div>
 					</h3>
 					<div className="pledge__line"></div>
 					<p className="pledge__text">
-						<strong>TEGA</strong> Members firmly believe that success in trading
-						is not exclusively contingent on a formal or professional
-						background, and that the current technological environment has
-						opened up opportunities for trading in a democratic way. While in
-						the past, trading was often the exclusive domain of a closed, small
-						group of professionals, non-professional traders are testing their
-						mettle in the market in growing numbers. TEGA Members endeavor to
-						support the rights of, and provide opportunities for aspiring
-						futures traders to join the professional trading industry, by
-						testing themselves through an objective examination and joining a
-						proprietary trading firm as professional traders.
-						<br /> <br />
-						Except where legally prohibited, <strong>TEGA</strong> Members
-						commit to provide aspiring futures traders, regardless of physical
-						location, race, religious beliefs, age, gender, income level or
-						other differentiation, with access to a process that objectively
-						measures performance and ultimately leads to the possibility of
-						trading proprietary capital for those who meet the applicable
-						standards.
+						<strong>TEGA</strong> Members understand that good trading takes
+						time to develop and learn. Members commit to the rejection of
+						negative, deceptive, malicious, inflammatory, fraudulent or
+						otherwise inappropriate marketing practices. Specifically, marketing
+						must never present the examinations (or the examination process) as
+						a path to wealth or an extravagant lifestyle and shall always be
+						accompanied by appropriate disclaimers. The difficulty of long-term
+						successful trading shall not be minimized, and <strong>TEGA</strong>{" "}
+						Members shall not present the lifestyle available to successful
+						traders in a manner that suggests that such lifestyle is achieved
+						except by a minority of traders.
+					</p>
+				</div>
+			</section>
+			<section className="pledge">
+				<div className="container">
+					<h3 className="pledge__title">
+						Educate Traders on the Risks Associated with Trading
+						<div className="pledge__number">06</div>
+					</h3>
+					<div className="pledge__line"></div>
+					<p className="pledge__text">
+						<strong>TEGA</strong> Members commit to educating aspiring futures
+						traders about the risks associated with trading. All{" "}
+						<strong>TEGA</strong> Members shall provide an objective,
+						non-product specific trading education that emphasizes risk
+						management as the fundamental principle underlying responsible
+						trading. This information can be provided through appropriate media,
+						including but not limited to:
+						<br />
+						<br />
+						<ul>
+							<li class="pledge__list">Blog or news articles</li>
+							<li class="pledge__list">Informational videos</li>
+							<li class="pledge__list">Social media sites</li>
+							<li class="pledge__list">Email newsletters</li>
+						</ul>
 					</p>
 				</div>
 			</section>
 			<section className="pledge pledge--last">
 				<div className="container">
 					<h3 className="pledge__title">
-						Providing Equal Opportunity for Aspiring Futures Traders
-						<div className="pledge__number">06</div>
+						Submit to Independent Compliance and Audit Reviews
+						<div className="pledge__number">07</div>
 					</h3>
 					<div className="pledge__line"></div>
 					<p className="pledge__text">
-						<strong>TEGA</strong> Members firmly believe that success in trading
-						is not exclusively contingent on a formal or professional
-						background, and that the current technological environment has
-						opened up opportunities for trading in a democratic way. While in
-						the past, trading was often the exclusive domain of a closed, small
-						group of professionals, non-professional traders are testing their
-						mettle in the market in growing numbers. TEGA Members endeavor to
-						support the rights of, and provide opportunities for aspiring
-						futures traders to join the professional trading industry, by
-						testing themselves through an objective examination and joining a
-						proprietary trading firm as professional traders.
-						<br /> <br />
-						Except where legally prohibited, <strong>TEGA</strong> Members
-						commit to provide aspiring futures traders, regardless of physical
-						location, race, religious beliefs, age, gender, income level or
-						other differentiation, with access to a process that objectively
-						measures performance and ultimately leads to the possibility of
-						trading proprietary capital for those who meet the applicable
-						standards.
+						All <strong>TEGA</strong> Members agree to periodic examinations by
+						independent examiners. Any material issues may be reported to, and
+						disclosed by, <strong>TEGA</strong> . Instances of egregious or
+						continued non-compliance with applicable <strong>TEGA</strong>{" "}
+						requirements may result in disciplinary action up to and including
+						expulsion from the association.
 					</p>
 				</div>
 			</section>
