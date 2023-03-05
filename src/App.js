@@ -4,11 +4,11 @@ import Pledge from "./pages/pledge/pledge";
 import Reports from "./pages/reports/reports";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import Home from "./pages/home/home";
 import { Routes, Route } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 
 function App() {
-	const Home = () => <h1>This is home</h1>;
 	// const navigate = useNavigate();
 
 	// const refreshPage = () => {

@@ -1,8 +1,16 @@
-function IntroText(props) {
+import classNames from "classnames";
+
+function IntroText({ children, largespacing }) {
 	return (
 		<section className="text-block-section">
 			<div className="container">
-				<p className="text-block">{props.children}</p>
+				<p
+					className={classNames("text-block", {
+						"text-block--lg": largespacing,
+					})}
+				>
+					{children}
+				</p>
 			</div>
 		</section>
 	);
