@@ -14,10 +14,11 @@ function Home() {
 					/>
 				</div>
 			</section>
-			<section className="members">
+			<section className="members members--v2">
 				<div className="members__container">
 					<div className="members__wrap">
 						<div className="members__column">
+							<span className="members__number">01</span>
 							<h4 className="members__heading">Nam porttitor bland</h4>
 							<div className="members__line"></div>
 							<p className="members__text">
@@ -42,6 +43,7 @@ function Home() {
 							</a>
 						</div>
 						<div className="members__column">
+							<span className="members__number">02</span>
 							<h4 className="members__heading">Fusce vehicula dol</h4>
 							<div className="members__line"></div>
 							<p className="members__text">
@@ -66,6 +68,7 @@ function Home() {
 							</a>
 						</div>
 						<div className="members__column">
+							<span className="members__number">03</span>
 							<h4 className="members__heading">Lorem ipsum dolor</h4>
 							<div className="members__line"></div>
 							<p className="members__text">
