@@ -459,7 +459,6 @@ strong {
 	border-radius: 20px;
 	line-height: 189%;
 	padding-right: 50px;
-	text-align: center;
 	@media (max-width: $md) {
 		padding: 25px 30px;
 		padding-right: 30px;
@@ -467,6 +466,23 @@ strong {
 	&--lg {
 		padding-top: 55px;
 		padding-bottom: 55px;
+		text-align: center;
+	}
+	&__title {
+		text-align: center;
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 44px;
+		color: #fff;
+		margin-bottom: 21px;
+	}
+	&__line {
+		width: 68px;
+		height: 2px;
+		background-color: #fff;
+		margin-bottom: 21px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -959,5 +975,129 @@ strong {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+	}
+}
+
+.greentitle {
+	color: $green;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 39px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.director {
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	$director: &;
+
+	&--last {
+		margin-bottom: 90px;
+	}
+
+	&--reversed {
+		#{$director}__flex {
+			flex-direction: row-reverse;
+		}
+		#{$director}__quote {
+			left: 0;
+		}
+	}
+	&__container {
+		max-width: 1041px;
+		padding-left: 16px;
+		padding-right: 16px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	&__flex {
+		display: flex;
+		align-items: center;
+		position: relative;
+		@media screen and (max-width: $lg) {
+			display: block;
+		}
+	}
+	&__content {
+		max-width: 312px;
+		@media screen and (max-width: $lg) {
+			max-width: none;
+		}
+	}
+	&__title {
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 34px;
+		margin-bottom: 24px;
+		@media screen and (max-width: $lg) {
+			text-align: center;
+		}
+	}
+	&__line {
+		width: 68px;
+		height: 2px;
+		background-color: $green;
+		margin-bottom: 21px;
+		@media screen and (max-width: $lg) {
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+	&__text {
+		color: $gray;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 34px;
+		@media screen and (max-width: $lg) {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+	}
+	&__image {
+		width: 350px;
+		height: 400px;
+		object-fit: cover;
+		margin-left: 50px;
+		margin-right: 50px;
+		@media screen and (max-width: $lg) {
+			width: 100%;
+			height: auto;
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+	&__quote {
+		background-color: $green;
+		padding: 30px;
+		border-radius: 20px;
+		color: #fff;
+		width: 347px;
+		position: absolute;
+		right: 0;
+		top: 30px;
+		@media screen and (max-width: $lg) {
+			position: static;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
+		}
+	}
+	&__quote-icon {
+		width: 33px;
+		margin-bottom: 13px;
+	}
+	&__quote-text {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 28px;
+		padding-right: 9px;
+	}
+	&__quote-name {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 33px;
+		text-align: right;
 	}
 }
