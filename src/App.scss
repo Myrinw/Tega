@@ -30,6 +30,7 @@ $gray: #616161;
 $darkbg: #1a1a1a;
 $semidarkbg: #2e2e2e;
 $lightbg: #f7f7f7;
+$formbg: #f5f5f5;
 
 $sm: 576px;
 $md: 768px;
@@ -67,6 +68,10 @@ strong {
 	display: flex;
 	line-height: 19px;
 	align-items: center;
+	border: 0;
+	&--black {
+		background-color: #000;
+	}
 }
 
 .header {
@@ -483,6 +488,11 @@ strong {
 		margin-bottom: 21px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	&__bold {
+		font-weight: 700;
+		font-size: 18px;
+		margin-top: 30px;
 	}
 }
 
@@ -1100,4 +1110,72 @@ strong {
 		line-height: 33px;
 		text-align: right;
 	}
+}
+
+.title-text {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.form {
+	padding-top: 61px;
+	padding-bottom: 61px;
+	background-color: $formbg;
+}
+.form-block {
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 60px;
+	&__input {
+		border: 0;
+		border-bottom: 1px solid $green;
+		color: $gray;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 34px;
+		padding: 0;
+		width: 100%;
+		&:focus {
+			outline: none;
+		}
+		@media (max-width: $md) {
+			margin-bottom: 20px;
+		}
+	}
+	&__row {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 58px;
+		margin-bottom: 30px;
+		@media (max-width: $md) {
+			display: block;
+			margin-bottom: 0;
+		}
+	}
+	&__btn {
+		background-color: $green;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 9px 72px;
+		border-radius: 20px;
+		border: 0;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 53px;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 22px;
+		color: #fffff2;
+		@media (max-width: $md) {
+			margin-top: 20px;
+		}
+	}
+}
+
+.mt-0 {
+	margin-top: 0;
+}
+.mb-0 {
+	margin-bottom: 0;
 }

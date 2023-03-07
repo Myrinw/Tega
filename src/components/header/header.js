@@ -71,9 +71,12 @@ function Header() {
 				</div>
 
 				<div className="header__btn">
-					<a href="#btn" className="btn">
+					<NavLink
+						to="/member"
+						className={({ isActive }) => (isActive ? "btn btn--black" : "btn")}
+					>
 						Become a member
-					</a>
+					</NavLink>
 				</div>
 				<div
 					id="burger"
