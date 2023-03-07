@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
 	return (
 		<footer className="footer">
@@ -68,9 +70,9 @@ function Footer() {
 							info@tiga.com
 						</a>
 						<div></div>
-						<a href="#contact" className="footer__btn btn">
+						<NavLink to="/member" className="footer__btn btn">
 							Become a member
-						</a>
+						</NavLink>
 					</div>
 				</div>
 				<div className="footer__right">

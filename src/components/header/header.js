@@ -96,31 +96,77 @@ function Header() {
 			>
 				<div className="container">
 					<div className="mobile-menu__menu">
-						<a className="mobile-menu__item" href="#test">
+						<NavLink
+							className={({ isActive }) =>
+								isActive
+									? "mobile-menu__item mobile-menu__item--active"
+									: "mobile-menu__item"
+							}
+							to="/"
+						>
 							Home
-						</a>
-						<a className="mobile-menu__item" href="#test">
+						</NavLink>
+						<NavLink
+							className={({ isActive }) =>
+								isActive
+									? "mobile-menu__item mobile-menu__item--active"
+									: "mobile-menu__item"
+							}
+							to="/about"
+						>
 							About
-						</a>
-						<a className="mobile-menu__item" href="#test">
+						</NavLink>
+						<NavLink
+							className={({ isActive }) =>
+								isActive
+									? "mobile-menu__item mobile-menu__item--active"
+									: "mobile-menu__item"
+							}
+							to="/pledge"
+						>
 							Pledge
-						</a>
-						<a className="mobile-menu__item" href="#test">
+						</NavLink>
+						<NavLink
+							className={({ isActive }) =>
+								isActive
+									? "mobile-menu__item mobile-menu__item--active"
+									: "mobile-menu__item"
+							}
+							to="/reports"
+						>
 							Reports
-						</a>
-						<a
-							className="mobile-menu__item mobile-menu__item--active"
-							href="#test"
+						</NavLink>
+						<NavLink
+							className={({ isActive }) =>
+								isActive
+									? "mobile-menu__item mobile-menu__item--active"
+									: "mobile-menu__item"
+							}
+							to="/faq"
 						>
 							FAQ
-						</a>
-						<a className="mobile-menu__item" href="#test">
+						</NavLink>
+						<NavLink
+							className={({ isActive }) =>
+								isActive
+									? "mobile-menu__item mobile-menu__item--active"
+									: "mobile-menu__item"
+							}
+							to="/contact"
+						>
 							Contact Us
-						</a>
+						</NavLink>
 					</div>
-					<a href="#test" className="btn mobile-menu__btn">
+					<NavLink
+						to="/member"
+						className={({ isActive }) =>
+							isActive
+								? "mobile-menu__item mobile-menu__item--active"
+								: "mobile-menu__item"
+						}
+					>
 						Become a member
-					</a>
+					</NavLink>
 				</div>
 			</div>
 		</header>

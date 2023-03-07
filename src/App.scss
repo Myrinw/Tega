@@ -243,6 +243,9 @@ strong {
 		&:last-of-type {
 			border-bottom: 0;
 		}
+		&--active {
+			color: $green;
+		}
 	}
 	&__btn {
 		width: fit-content;
