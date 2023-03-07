@@ -257,7 +257,7 @@ strong {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
+	overflow-x: cut;
 	$hero: &;
 	@media (max-width: $md) {
 		height: 180px;
@@ -281,6 +281,7 @@ strong {
 			line-height: 34px;
 			padding-left: 29px;
 			border-left: 2px solid $green;
+
 			@media (max-width: $md) {
 				padding-left: 16px;
 				padding-right: 16px;
@@ -299,14 +300,55 @@ strong {
 			height: auto !important;
 		}
 	}
+	&__textblock {
+		position: absolute;
+		// bottom: 0;
+		// transform: translateY(50%);
+		width: 100%;
+		max-width: 890px;
+	}
+
 	&--main {
 		// min-height: 646px;
 		height: auto;
 		flex-direction: column;
 		padding-bottom: 128px;
+		margin-bottom: 217px;
 		padding-top: 90px;
-		margin-bottom: 61px;
 		justify-content: flex-start;
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url("./img/homegraphs.png");
+			background-size: cover;
+			filter: grayscale(100%);
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-image: linear-gradient(
+				0deg,
+				#ffffff9e,
+				rgba(90, 165, 81, 0.219) 100%
+			);
+		}
+
+		.container {
+			position: relative;
+			z-index: 1;
+		}
+
 		@media (max-width: $md) {
 			padding-left: 16px;
 			padding-right: 16px;
@@ -317,9 +359,10 @@ strong {
 		}
 
 		#{$hero}__image {
-			max-width: 1700px;
-			left: 50%;
-			transform: translateX(-50%);
+			// max-width: 1700px;
+			// left: 50%;
+			// transform: translateX(-50%);
+			width: 100%;
 		}
 		#{$hero}__title {
 			margin-bottom: 40px;
@@ -330,10 +373,25 @@ strong {
 			text-align: center;
 			max-width: 720px;
 			font-weight: 600;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 66px;
 			strong {
 				color: #04724d;
 				font-weight: 900;
 			}
+		}
+		#{$hero}__lines {
+			width: 32%;
+			// position: absolute;
+			// right: 0;
+			// height: 100%;
+			// top: 0;
+			// filter: grayscale(100%);
+			// opacity: 0.9;
+			// @media (max-width: $md) {
+			// 	width: 40%;
+			// }
 		}
 		@media (max-width: $md) {
 			height: auto !important;
@@ -376,7 +434,8 @@ strong {
 .text-block-section {
 	margin-top: 90px;
 	margin-bottom: 109px;
-
+	position: relative;
+	z-index: 5;
 	@media (max-width: $md) {
 		margin-bottom: 80px;
 		margin-top: 80px;
