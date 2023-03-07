@@ -14,6 +14,84 @@ function Home() {
 					/>
 				</div>
 			</section>
+			<section className="members">
+				<div className="members__container">
+					<div className="members__wrap">
+						<div className="members__column">
+							<h4 className="members__heading">Nam porttitor bland</h4>
+							<div className="members__line"></div>
+							<p className="members__text">
+								Curabitur lobortis id lorem id bibendum. Ut id consectetur
+								magna. Quisque volutpat augue enim, pu.
+							</p>
+							<a className="members__link" href="https://www.topstep.com/">
+								READ MORE
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 15 12"
+								>
+									<path
+										stroke="#388B2E"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M1 6h13l-4-5M1 6h13l-4 5"
+									/>
+								</svg>
+							</a>
+						</div>
+						<div className="members__column">
+							<h4 className="members__heading">Fusce vehicula dol</h4>
+							<div className="members__line"></div>
+							<p className="members__text">
+								Curabitur lobortis id lorem id bibendum. Ut id consectetur
+								magna. Quisque volutpat augue enim, pu.
+							</p>
+							<a className="members__link" href="https://www.earn2trade.com/">
+								READ MORE
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 15 12"
+								>
+									<path
+										stroke="#388B2E"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M1 6h13l-4-5M1 6h13l-4 5"
+									/>
+								</svg>
+							</a>
+						</div>
+						<div className="members__column">
+							<h4 className="members__heading">Lorem ipsum dolor</h4>
+							<div className="members__line"></div>
+							<p className="members__text">
+								Curabitur lobortis id lorem id bibendum. Ut id consectetur
+								magna. Quisque volutpat augue enim, pu.
+							</p>
+							<a className="members__link" href="www.uprofit.com">
+								READ MORE
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 15 12"
+								>
+									<path
+										stroke="#388B2E"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M1 6h13l-4-5M1 6h13l-4 5"
+									/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 }
