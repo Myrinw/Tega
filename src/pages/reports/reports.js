@@ -6,13 +6,14 @@ function Reports() {
 		<div>
 			<Hero title="REPORTS"></Hero>
 			<IntroText>
-				TEGA conducts annual third party compliance evaluations of all members.
-				Members are required to post a link on their website footer directing
-				customers to their compliance evaluations listed on the TEGA site. The
-				compliance evaluations are based on a list compiled by the association
-				that divides compliance issues into a Yellow, Red and Black color coded
-				system. The color green will indicate that no compliance issues have
-				been determined. Issues will be labeled in the following manner:
+				<strong>TEGA</strong> conducts annual third party compliance evaluations
+				of all members. Members are required to post a link on their website
+				footer directing customers to their compliance evaluations listed on the
+				TEGA site. The compliance evaluations are based on a list compiled by
+				the association that divides compliance issues into a Yellow, Red and
+				Black color coded system. The color green will indicate that no
+				compliance issues have been determined. Issues will be labeled in the
+				following manner:
 			</IntroText>
 			<section className="report">
 				<div className="container">
