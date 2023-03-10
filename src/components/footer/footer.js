@@ -8,7 +8,7 @@ function Footer() {
 					<div>
 						<NavLink to="/" className="footer__logo-wrap">
 							<img
-								src={require("../../img/logo.png")}
+								src={require("../../img/tega-white.png")}
 								alt=""
 								className="footer__logo"
 							/>
