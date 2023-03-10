@@ -13,11 +13,11 @@ function IntroText({ children, largespacing, title, bold, mbnone }) {
 						"text-block--lg": largespacing,
 					})}
 				>
-					{title && <h4 className="text-block__title">{title}</h4>}
-					{title && <div className="text-block__line"></div>}
+					{title && <span className="text-block__title">{title}</span>}
+					{title && <span className="text-block__line"></span>}
 
 					{children}
-					{bold && <div className="text-block__bold">{bold}</div>}
+					{bold && <span className="text-block__bold">{bold}</span>}
 				</p>
 			</div>
 		</section>

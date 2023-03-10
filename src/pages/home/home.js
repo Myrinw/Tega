@@ -3,7 +3,6 @@ function Home() {
 	return (
 		<div>
 			<HeroMain />
-
 			<section className="emblem">
 				<div className="container">
 					<h2 className="emblem__title">Join Us and get certified</h2>
@@ -25,7 +24,12 @@ function Home() {
 								Curabitur lobortis id lorem id bibendum. Ut id consectetur
 								magna. Quisque volutpat augue enim, pu.
 							</p>
-							<a className="members__link" href="https://www.topstep.com/">
+							<a
+								className="members__link"
+								target="_blank"
+								href="https://www.topstep.com/"
+								rel="noreferrer"
+							>
 								READ MORE
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -34,9 +38,9 @@ function Home() {
 								>
 									<path
 										stroke="#388B2E"
-										stroke-linecap="round"
+										strokeLinecap="round"
 										stroke-linejoin="round"
-										stroke-width="2"
+										strokeWidth="2"
 										d="M1 6h13l-4-5M1 6h13l-4 5"
 									/>
 								</svg>
@@ -50,7 +54,12 @@ function Home() {
 								Curabitur lobortis id lorem id bibendum. Ut id consectetur
 								magna. Quisque volutpat augue enim, pu.
 							</p>
-							<a className="members__link" href="https://www.earn2trade.com/">
+							<a
+								className="members__link"
+								target="_blank"
+								href="https://www.earn2trade.com/"
+								rel="noreferrer"
+							>
 								READ MORE
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -59,9 +68,9 @@ function Home() {
 								>
 									<path
 										stroke="#388B2E"
-										stroke-linecap="round"
+										strokeLinecap="round"
 										stroke-linejoin="round"
-										stroke-width="2"
+										strokeWidth="2"
 										d="M1 6h13l-4-5M1 6h13l-4 5"
 									/>
 								</svg>
@@ -75,7 +84,12 @@ function Home() {
 								Curabitur lobortis id lorem id bibendum. Ut id consectetur
 								magna. Quisque volutpat augue enim, pu.
 							</p>
-							<a className="members__link" href="www.uprofit.com">
+							<a
+								className="members__link"
+								href="www.uprofit.com"
+								target="_blank"
+								rel="norefferer"
+							>
 								READ MORE
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -84,9 +98,9 @@ function Home() {
 								>
 									<path
 										stroke="#388B2E"
-										stroke-linecap="round"
+										strokeLinecap="round"
 										stroke-linejoin="round"
-										stroke-width="2"
+										strokeWidth="2"
 										d="M1 6h13l-4-5M1 6h13l-4 5"
 									/>
 								</svg>

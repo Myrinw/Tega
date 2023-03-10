@@ -6,12 +6,15 @@ function Footer() {
 			<div className="footer__container">
 				<div className="footer__left">
 					<div>
-						<img
-							src={require("../../img/logo.png")}
-							alt=""
-							className="footer__logo"
-						/>
-						<a href="#test" className="footer__contact">
+						<NavLink to="/" className="footer__logo-wrap">
+							<img
+								src={require("../../img/logo.png")}
+								alt=""
+								className="footer__logo"
+							/>
+						</NavLink>
+
+						<div className="footer__contact">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -32,8 +35,8 @@ function Footer() {
 								/>
 							</svg>
 							572 West City STE, Brawley, NE 26956
-						</a>
-						<a href="#test" className="footer__contact">
+						</div>
+						<a href="tel:18001231234" className="footer__contact">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -52,7 +55,7 @@ function Footer() {
 							</svg>
 							1 800 123 1234
 						</a>
-						<a href="#test" className="footer__contact">
+						<a href="mailto:info@tiga.com" className="footer__contact">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -78,45 +81,45 @@ function Footer() {
 				<div className="footer__right">
 					<div className="footer__right-grid">
 						<div className="footer__menu">
-							<a className="footer__menu-item" href="#home">
+							<NavLink className="footer__menu-item" to="/">
 								Home
-							</a>
-							<a className="footer__menu-item" href="#home">
+							</NavLink>
+							<NavLink className="footer__menu-item" to="/about">
 								About
-							</a>
-							<a
+							</NavLink>
+							<NavLink
 								className="footer__menu-item footer__menu-item--nested"
-								href="#home"
+								to="/"
 							>
 								Who are we?
-							</a>
-							<a
+							</NavLink>
+							<NavLink
 								className="footer__menu-item footer__menu-item--nested"
-								href="#home"
+								to="/"
 							>
 								Board of directors
-							</a>
-							<a
+							</NavLink>
+							<NavLink
 								className="footer__menu-item footer__menu-item--nested"
-								href="#home"
+								to="/members"
 							>
 								Members
-							</a>
-							<a className="footer__menu-item" href="#home">
+							</NavLink>
+							<NavLink className="footer__menu-item" to="/pledge">
 								Pledge
-							</a>
-							<a className="footer__menu-item" href="#home">
+							</NavLink>
+							<NavLink className="footer__menu-item" to="/reports">
 								Reports
-							</a>
-							<a className="footer__menu-item" href="#home">
+							</NavLink>
+							<NavLink className="footer__menu-item" to="/member">
 								Become a member
-							</a>
-							<a className="footer__menu-item" href="#home">
+							</NavLink>
+							<NavLink className="footer__menu-item" to="/faq">
 								FAQ
-							</a>
-							<a className="footer__menu-item" href="#home">
+							</NavLink>
+							<NavLink className="footer__menu-item" to="/contact">
 								Contact Us
-							</a>
+							</NavLink>
 						</div>
 						<div>
 							<div className="footer__socials">

@@ -69,7 +69,11 @@ strong {
 	line-height: 19px;
 	align-items: center;
 	border: 0;
+	transition: all 0.3s;
 	&--black {
+		background-color: #000;
+	}
+	&:hover {
 		background-color: #000;
 	}
 }
@@ -630,6 +634,10 @@ strong {
 		@media (max-width: $lg) {
 			grid-template-columns: 1fr;
 		}
+	}
+	&__logo-wrap {
+		display: inline-block;
+		cursor: pointer;
 	}
 	&__left {
 		background-color: $semidarkbg;
